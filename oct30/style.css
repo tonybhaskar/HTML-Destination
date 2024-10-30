@@ -1,0 +1,38 @@
+body {
+    font-family: "Playfair Display", serif;
+}
+
+/* styling by grouping of elements */
+h3,
+h4 {
+    color: green;
+}
+
+/* using id */
+#head1 {
+    background-color: blueviolet;
+    color: red;
+    text-align: center;
+}
+
+#head2 {
+    background-color: gold;
+    color: brown;
+    text-align: center;
+}
+
+/* using element tagname */
+h2 {
+    color: hsla(270, 100%, 25%, 0.441);
+}
+
+/* using class*/
+.paras {
+    color: red;
+}
+
+
+/* this is the universal selector */
+* {
+    margin: 0;
+}
