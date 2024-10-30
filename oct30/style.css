@@ -1,3 +1,6 @@
+/* This is called external styling and this can be done be creating an external style sheet and linking it with the html file */
+
+
 body {
     font-family: "Playfair Display", serif;
 }
