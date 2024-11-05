@@ -1,0 +1,32 @@
+.header {
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+body {
+    /* padding: 0 100px; */
+    background-color: pink;
+}
+
+
+.image-box {
+    width: max-content;
+    background-color: chocolate;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: max-content;
+}
+
+.image-box img {
+    margin: 50px 50px 30px 50px;
+    border-radius: 20px;
+}
+
+#car-titles {
+    color: white;
+    text-align: center;
+    /* background-color: red; */
+    padding-bottom: 30px;
+}
