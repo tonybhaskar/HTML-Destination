@@ -5,9 +5,11 @@
     text-align: center;
 }
 
+
+
 body {
-    /* padding: 0 100px; */
     background-color: pink;
+    font-family: "Playfair Display";
 }
 
 
@@ -27,6 +29,5 @@ body {
 #car-titles {
     color: white;
     text-align: center;
-    /* background-color: red; */
     padding-bottom: 30px;
 }
