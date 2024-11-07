@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-box {
+    border: 10px inset chartreuse;
+    height: 500px;
+    position: relative;
+
+    display: flex;
+    align-items: center; /* It will style on the cross axis*/
+    justify-content: center; /* It will style on the main axis*/
+}
+
+.boxes {
+    height: 200px;
+    width: 200px;
+    border: 10px inset tomato;
+
+    text-align: center;
+    align-content: center;
+}
+
+
+/* Axis representation */
+
+.cross-axis, .main-axis{
+    position: absolute;
+}
+
+.main-axis{
+    height: 2px;
+    width: 100%;
+    background-color: red;
+    top: 50%;
+    text-align: right;
+    font-size: 2rem;
+}
+
+.cross-axis {
+    height: 100%;
+    width: 2px;
+    background-color: red;
+    left: 50%;
+    text-align: right;
+    font-size: 2rem;
+}

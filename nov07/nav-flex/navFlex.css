@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: chartreuse;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    gap: 5px;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    border: 3px solid;
+
+    background-color: pink;
+}
+
+li {
+    list-style: none;
+}
+
+
+section {
+    padding: 50px;
+}
+
+.outer-div {
+    background-color: chocolate;
+    height: 300px;
+    width: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.inner-div {
+    background-color: black;
+    height: 150px;
+    width: 150px;
+}
+
+.inner-div:hover {
+    scale: 1.114;
+}
