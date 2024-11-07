@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+
     box-sizing: border-box;
 }
 
@@ -19,16 +19,15 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+li {
+    list-style: none;
     padding: 5px;
     border: 3px solid;
 
     background-color: pink;
 }
-
-li {
-    list-style: none;
-}
-
 
 section {
     padding: 50px;
@@ -45,12 +44,21 @@ section {
 }
 
 
+.inner-div,
+.outer-div,
+nav {
+    border-radius: 20px;
+}
+
 .inner-div {
     background-color: black;
     height: 150px;
     width: 150px;
+
+    transition: all 0.3s ease;
 }
 
 .inner-div:hover {
-    scale: 1.114;
+    /* scale: 1.114; */
+    border-radius: 50%;
 }
